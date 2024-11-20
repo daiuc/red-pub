@@ -3,11 +3,12 @@ project:
   title: "mysite"
   output-dir: docs
   render:
-    - "*.qmd"
+    - "index.qmd"
+    - "analysis/202*.qmd"
+    - "makefigs/*.qmd"
     - "!code/"
     - "!data/"
     - "!output"
-    
 
 website:
   title: "mysite"
@@ -15,24 +16,11 @@ website:
     left: 
       - href: index.qmd
         text: Home
-      - href: analysis/index.qmd
-        text: Analysis
       - about.qmd
     logo: assets/logo.png
     background: "dark"
     search: true
-      # - menu:
-      #   - href: analysis/analysis1.qmd
-      #     text: analysis
-  # open-graph: true
-  # twitter-card: 
-  #   title: twitter
-  #   site: "@chaodai"
-  # comments: 
-  #   hypothesis:
-  #     theme: classic
-  #     openSidebar: false
 format:
   html:
-    theme: sandstone
+    theme: yeti
     css: styles.css

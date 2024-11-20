@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html",
+    "title": "Process GWAS summary stats",
+    "section": "",
+    "text": "GWAS\nTrait\n\n\n\n\nHT\nHeight\n\n\nIBD\nInflammatory Bowel Disease\n\n\nMS\nMultiple Sclerosis\n\n\nRA\nRheumatoid Arthritis\n\n\nAD\nAlzheimer's disease\n\n\nPD\nParkinson's disease\n\n\nT2D\nType 2 diabetes\n\n\n\n\n\n\n\n\n\n\n\n\n\nGWAS\nPath\n\n\n\n\nHT\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/Locke_height_UKBiobank_2018.txt.gz\n\n\nIBD\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/ibd_build37_59957_20161107.txt.gz\n\n\nMS\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/MS_discovery_metav3.0.meta.gz\n\n\nRA\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/RA_GWASmeta_TransEthnic_v2.txt.gz\n\n\nAD\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/AD_sumstats_Jansenetal.txt.gz\n\n\nPD\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/pkd_nallsEtAl2019_excluding23andMe_allVariants.tab.gz\n\n\nT2D\n/project/yangili1/cdai/SpliFi/code/resources/GWAS/zpmu-GWAS_loci/Mahajan.NatGenet2018b.T2D.European.txt.gz"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ad",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ad",
+    "title": "Process GWAS summary stats",
+    "section": "AD",
+    "text": "AD\n\nTotal Number of SNPs: 13,367,299;\nNumber of SNPs with P-value &lt; 10^{-5}: 1,457,396;\nNumber of GWAS Loci: 116\n\n\n\n\n\n\n\n\n\nuniqID.a1a2\nCHR\nBP\nA1\nA2\nSNP\nZ\nP\nNsum\nNeff\ndir\nMAF\nBETA\nSE\n\n\n\n\n1:715265_T_C\n1\n715265\nT\nC\nrs12184267\n2.121973\n0.03384\n381761\n381761\n??+?\n0.0408069\n0.01227458\n0.005784513\n\n\n1:715367_G_A\n1\n715367\nG\nA\nrs12184277\n1.957915\n0.05024\n382151\n382151\n??+?\n0.0410687\n0.01128522\n0.005763896\n\n\n1:717485_A_C\n1\n717485\nA\nC\nrs12184279\n1.912438\n0.05582\n382180\n382180\n??+?\n0.0405759\n0.01108656\n0.005797083\n\n\n1:720381_T_G\n1\n720381\nT\nG\nrs116801199\n2.295404\n0.02171\n382954\n382954\n??+?\n0.0421620\n0.01305152\n0.005685937\n\n\n1:721290_C_G\n1\n721290\nC\nG\nrs12565286\n2.315602\n0.02058\n382779\n382779\n??+?\n0.0423776\n0.01313731\n0.005673389\n\n\n1:723891_G_C\n1\n723891\nG\nC\nrs2977670\n2.468185\n0.01358\n381362\n381362\n??+?\n0.0631200\n0.01162158\n0.004708552"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#pd",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#pd",
+    "title": "Process GWAS summary stats",
+    "section": "PD",
+    "text": "PD\n\nTotal Number of SNPs: 17,510,617;\nNumber of SNPs with P-value &lt; 10^{-5}: 5,806;\nNumber of GWAS Loci: 100\n\n\n\n\n\n\n\n\n\nSNP\nA1\nA2\nfreq\nb\nse\np\nN_cases\nN_controls\n\n\n\n\nchr11:88249377\nT\nC\n0.9931\n0.1575\n0.1783\n0.3771\n7161\n5356\n\n\nchr1:60320992\nA\nG\n0.9336\n0.0605\n0.0456\n0.1846\n26421\n442271\n\n\nchr2:18069070\nT\nC\n0.9988\n-0.6774\n1.3519\n0.6163\n582\n905\n\n\nchr8:135908647\nA\nG\n0.2081\n-0.0358\n0.0273\n0.1887\n26421\n442271\n\n\nchr12:3871714\nA\nC\n0.9972\n0.1489\n1.0636\n0.8886\n749\n658\n\n\nchr16:77148858\nA\nG\n0.9976\n-0.1213\n0.3874\n0.7543\n6248\n4391"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ht",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ht",
+    "title": "Process GWAS summary stats",
+    "section": "HT",
+    "text": "HT\n\nTotal Number of SNPs: 2,348,397;\nNumber of SNPs with P-value &lt; 10^{-5}: 5,806;\nNumber of GWAS Loci: 1074\n\n\n\n\n\n\n\n\n\nCHR\nPOS\nSNP\nTested_Allele\nOther_Allele\nFreq_Tested_Allele_in_HRS\nBETA\nSE\nP\nN\n\n\n\n\n7\n92383888\nrs10\nA\nC\n0.06431\n0.0006\n0.0044\n0.890\n598895\n\n\n12\n126890980\nrs1000000\nA\nG\n0.22190\n0.0001\n0.0023\n0.950\n689928\n\n\n4\n21618674\nrs10000010\nT\nC\n0.50860\n0.0008\n0.0020\n0.670\n785319\n\n\n4\n1357325\nrs10000012\nC\nG\n0.86340\n0.0034\n0.0028\n0.230\n692463\n\n\n4\n37225069\nrs10000013\nA\nC\n0.77080\n-0.0051\n0.0024\n0.034\n687856\n\n\n4\n84778125\nrs10000017\nT\nC\n0.22840\n0.0042\n0.0024\n0.073\n686123"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#t2d",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#t2d",
+    "title": "Process GWAS summary stats",
+    "section": "T2D",
+    "text": "T2D\n\nTotal Number of SNPs: 23,465,132;\nNumber of SNPs with P-value &lt; 10^{-5}: 44,546;\nNumber of GWAS Loci: 743\n\n\n\n\n\n\n\n\n\nSNP\nChr\nPos\nEA\nNEA\nEAF\nBeta\nSE\nPvalue\nNeff\n\n\n\n\n1:100000012\n1\n100000012\nT\nG\n0.2500\n-0.0260\n0.0073\n0.00040\n231420\n\n\n1:10000006\n1\n10000006\nA\nG\n0.0047\n-0.0380\n0.0560\n0.49000\n225429\n\n\n1:100000135\n1\n100000135\nA\nT\n0.9900\n-0.0330\n0.0550\n0.55000\n226311\n\n\n1:100000436\n1\n100000436\nT\nC\n1.0000\n-0.0980\n0.1900\n0.61000\n185906\n\n\n1:100000827\n1\n100000827\nT\nC\n0.3000\n-0.0230\n0.0069\n0.00075\n231420\n\n\n1:100000843\n1\n100000843\nT\nC\n0.9400\n0.0006\n0.0140\n0.97000\n231420"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ibd",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ibd",
+    "title": "Process GWAS summary stats",
+    "section": "IBD",
+    "text": "IBD\n\nTotal Number of SNPs: 9,735,446;\nNumber of SNPs with P-value &lt; 10^{-5}: 24,700;\nNumber of GWAS Loci: 383\n\n\n\n\n\n\n\n\n\nMarkerName\nAllele1\nAllele2\nEffect\nStdErr\nP.value\nDirection\nHetISq\nHetChiSq\nHetDf\nHetPVal\nPval_IBDseq\nPval_IIBDGC\nPval_GWAS3\nMin_single_cohort_pval\n\n\n\n\n1:100000012_G_T\nt\ng\n-0.0078\n0.0147\n0.5950\n+-+\n82.7\n11.592\n2\n0.00304\n0.2395900\n0.2746\n0.00229140\n0.00229140\n\n\n1:10000006_G_A\na\ng\n0.0155\n0.1109\n0.8886\n+--\n54.3\n4.373\n2\n0.11230\n0.0546277\n0.9403\n0.40489500\n0.05462770\n\n\n1:100000827_C_T\nt\nc\n-0.0144\n0.0136\n0.2915\n+-+\n72.4\n7.253\n2\n0.02661\n0.4995680\n0.6470\n0.00551736\n0.00551736\n\n\n1:100000843_T_C\nt\nc\n0.0374\n0.0289\n0.1954\n+++\n0.0\n0.575\n2\n0.75030\n0.3878360\n0.2238\n0.86966400\n0.22380000\n\n\n1:100000989_A_ATC\na\natc\n0.0431\n0.0300\n0.1499\n+++\n0.0\n0.835\n2\n0.65860\n0.2908440\n0.1833\n0.88905500\n0.18330000\n\n\n1:100001138_A_G\na\ng\n-0.0212\n0.0458\n0.6435\n--+\n28.3\n2.791\n2\n0.24780\n0.2968820\n0.3558\n0.30243800\n0.29688200"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ms",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ms",
+    "title": "Process GWAS summary stats",
+    "section": "MS",
+    "text": "MS\n\nTotal Number of SNPs: 8,589,719;\nNumber of SNPs with P-value &lt; 10^{-5}: 35,422;\nNumber of GWAS Loci: 175\n\n\n\n\n\n\n\n\n\nCHR\nBP\nSNP\nA1\nA2\nN\nP\nOR\n\n\n\n\n1\n11154\nchr1:11154\nC\nA\n4\n0.7911\n0.9818\n\n\n1\n11565\nchr1:11565\nG\nT\n5\n0.8735\n0.9924\n\n\n1\n11710\nchr1:11710\nT\nG\n4\n0.7793\n0.9806\n\n\n1\n11961\nchr1:11961\nA\nG\n4\n0.7953\n0.9817\n\n\n1\n12078\nchr1:12078\nG\nA\n1\nNA\nNA\n\n\n1\n12198\nchr1:12198\nG\nC\n4\n0.8020\n0.9823"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ra",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ra",
+    "title": "Process GWAS summary stats",
+    "section": "RA",
+    "text": "RA\n\nTotal Number of SNPs: 9,739,303;\nNumber of SNPs with P-value &lt; 10^{-5}: 34,335;\nNumber of GWAS Loci: 129\n\n\n\n\n\n\n\n\n\nSNPID\nChr\nPosition(hg19)\nA1\nA2\nOR(A1)\nOR_95%CIlow\nOR_95%CIup\nP-val\n\n\n\n\nrs61770171\n1\n750138\nA\nG\n0.99\n0.90\n1.08\n0.820\n\n\nchr1:751343\n1\n751343\nA\nT\n0.95\n0.89\n1.01\n0.110\n\n\nchr1:751756\n1\n751756\nT\nC\n1.06\n0.99\n1.13\n0.110\n\n\nrs3094315\n1\n752566\nA\nG\n1.06\n0.99\n1.12\n0.074\n\n\nrs3131972\n1\n752721\nA\nG\n0.89\n0.81\n0.98\n0.017\n\n\nrs3131971\n1\n752894\nT\nC\n0.94\n0.88\n1.01\n0.083"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ad-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ad-1",
+    "title": "Process GWAS summary stats",
+    "section": "AD",
+    "text": "AD\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nSNP\nZ\nP\nBETA\nSE\nNsum\nNeff\nA1\nA2\nMAF\n\n\n\n\nchr1\n779885\n1:715265_T_C\nrs12184267\n2.121973\n0.03384\n0.01227458\n0.005784513\n381761\n381761\nT\nC\n0.0408069\n\n\nchr1\n779987\n1:715367_G_A\nrs12184277\n1.957915\n0.05024\n0.01128522\n0.005763896\n382151\n382151\nG\nA\n0.0410687\n\n\nchr1\n782105\n1:717485_A_C\nrs12184279\n1.912438\n0.05582\n0.01108656\n0.005797083\n382180\n382180\nA\nC\n0.0405759\n\n\nchr1\n785001\n1:720381_T_G\nrs116801199\n2.295404\n0.02171\n0.01305152\n0.005685937\n382954\n382954\nT\nG\n0.0421620\n\n\nchr1\n785910\n1:721290_C_G\nrs12565286\n2.315602\n0.02058\n0.01313731\n0.005673389\n382779\n382779\nC\nG\n0.0423776\n\n\nchr1\n788511\n1:723891_G_C\nrs2977670\n2.468185\n0.01358\n0.01162158\n0.004708552\n381362\n381362\nG\nC\n0.0631200"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#pd-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#pd-1",
+    "title": "Process GWAS summary stats",
+    "section": "PD",
+    "text": "PD\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nBETA\nSE\nP\nN_cases\nN_controls\nA1\nA2\nfreq\n\n\n\n\nchr1\n54591\nchr1:54591\n-0.6797\n0.8869\n0.44350\n527\n472\nA\nG\n0.9938\n\n\nchr1\n54676\nchr1:54676\n-0.0996\n0.0656\n0.12870\n1169\n968\nT\nC\n0.3166\n\n\nchr1\n79188\nchr1:79188\n0.6704\n0.8795\n0.44590\n527\n472\nT\nG\n0.0062\n\n\nchr1\n82994\nchr1:82994\n1.2614\n1.8502\n0.49540\n527\n472\nA\nG\n0.9984\n\n\nchr1\n86028\nchr1:86028\n-0.2158\n0.1222\n0.07745\n1169\n968\nT\nC\n0.9345\n\n\nchr1\n90231\nchr1:90231\n-1.7603\n1.8868\n0.35080\n527\n472\nA\nC\n0.0017"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ht-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ht-1",
+    "title": "Process GWAS summary stats",
+    "section": "HT",
+    "text": "HT\n\n\n\n\n\n\n\n\n#CHR\nBP\nSNP\nBETA\nSE\nP\nN\nTested_Allele\nOther_Allele\nfreq\n\n\n\n\nchr1\n818161\nrs2073813\n-0.0041\n0.0029\n0.17\n517173\nA\nG\n0.1425\n\n\nchr1\n818812\nrs3131968\n-0.0034\n0.0029\n0.25\n551519\nA\nG\n0.1437\n\n\nchr1\n841742\nrs2980319\n-0.0027\n0.0029\n0.35\n598447\nA\nT\n0.1368\n\n\nchr1\n843942\nrs4040617\n0.0032\n0.0029\n0.27\n587624\nA\nG\n0.8647\n\n\nchr1\n845405\nrs2977612\n0.0030\n0.0029\n0.31\n582906\nA\nT\n0.8550\n\n\nchr1\n849670\nrs2905062\n0.0030\n0.0029\n0.30\n641437\nA\nG\n0.8558"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#t2d-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#t2d-1",
+    "title": "Process GWAS summary stats",
+    "section": "T2D",
+    "text": "T2D\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nBETA\nSE\nP\nNeff\nEA\nNEA\nEAF\n\n\n\n\nchr1\n79033\n1:79033\n0.190\n0.19\n0.31\n93943\nA\nG\n0.0014\n\n\nchr1\n79137\n1:79137\n-0.043\n0.32\n0.89\n93632\nA\nT\n1.0000\n\n\nchr1\n118630\n1:118630\n0.080\n0.46\n0.86\n129175\nT\nC\n0.0004\n\n\nchr1\n597799\n1:533179\n0.250\n0.50\n0.62\n87636\nA\nG\n1.0000\n\n\nchr1\n605323\n1:540703\n0.270\n0.84\n0.74\n15329\nA\nG\n1.0000\n\n\nchr1\n609204\n1:544584\n-0.130\n0.12\n0.28\n120472\nT\nC\n0.0024"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ibd-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ibd-1",
+    "title": "Process GWAS summary stats",
+    "section": "IBD",
+    "text": "IBD\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nBETA\nSE\nP\n\n\n\n\nchr1\n727242\n1:662622_G_A\n0.0258\n0.0252\n0.30520\n\n\nchr1\n758351\n1:693731_A_G\n-0.0218\n0.0242\n0.36730\n\n\nchr1\n766455\n1:701835_T_C\n-0.0859\n0.0467\n0.06568\n\n\nchr1\n777550\n1:712930_T_C\n-0.0744\n0.0510\n0.14470\n\n\nchr1\n778639\n1:714019_A_G\n-0.0505\n0.0407\n0.21410\n\n\nchr1\n778897\n1:714277_C_A\n0.0097\n0.1148\n0.93260"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ms-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ms-1",
+    "title": "Process GWAS summary stats",
+    "section": "MS",
+    "text": "MS\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nP\nOR\nN\n\n\n\n\nchr1\n11154\nchr1:11154\n0.7911\n0.9818\n4\n\n\nchr1\n11565\nchr1:11565\n0.8735\n0.9924\n5\n\n\nchr1\n11710\nchr1:11710\n0.7793\n0.9806\n4\n\n\nchr1\n11961\nchr1:11961\n0.7953\n0.9817\n4\n\n\nchr1\n12198\nchr1:12198\n0.8020\n0.9823\n4\n\n\nchr1\n12201\nchr1:12201\n0.7864\n0.9824\n4"
+  },
+  {
+    "objectID": "analysis/2024-11-20-process-GWAS-summary-stats.html#ra-1",
+    "href": "analysis/2024-11-20-process-GWAS-summary-stats.html#ra-1",
+    "title": "Process GWAS summary stats",
+    "section": "RA",
+    "text": "RA\n\n\n\n\n\n\n\n\n#CHR\nBP\nid\nP\nOR\n\n\n\n\nchr1\n814758\nrs61770171\n0.820\n0.99\n\n\nchr1\n815963\nchr1:751343\n0.110\n0.95\n\n\nchr1\n816376\nchr1:751756\n0.110\n1.06\n\n\nchr1\n817186\nrs3094315\n0.074\n1.06\n\n\nchr1\n817341\nrs3131972\n0.017\n0.89\n\n\nchr1\n817514\nrs3131971\n0.083\n0.94"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nAug 6, 2024\n\n\nProcess GWAS summary stats\n\n\n \n\n\n\n\n\nNo matching items"
+  }
+]
