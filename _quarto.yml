@@ -1,6 +1,6 @@
 project:
   type: "website"
-  title: "mysite"
+  title: "RNA-Editing"
   output-dir: docs
   render:
     - "index.qmd"
@@ -11,13 +11,13 @@ project:
     - "!output"
 
 website:
-  title: "mysite"
+  title: "RNA-Editing"
   navbar:
     left: 
       - href: index.qmd
         text: Home
       - about.qmd
-    logo: assets/logo.png
+    # logo: assets/logo.png
     background: "dark"
     search: true
 format:
